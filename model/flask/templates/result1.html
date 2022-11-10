@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Table 05</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="static/style.css">
+	<style>
+		body {
+		  background-image: url('static/cars3.jpg');
+		  /*background-repeat: repeat;*/
+		}
+		.box {
+  			background-color: rgb(248, 246, 246);
+  			
+		}
+	</style>
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h1 class="box">Price : {%print("%.2f" % price1)%} Lakhs</h1>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table table-responsive-xl">
+						  <thead>
+						    <tr>
+						    	
+						    	<th>Specs</th>
+						      <th>Values</th>
+						      
+						      
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr class="alert" role="alert">
+						    	
+						      <td class="d-flex align-items-center">
+						      	<div class="img" style="background-image: url(static/car.webp);"></div>
+						      	<div class="pl-3 email">
+						      		<span>Car Name</span>
+						      		
+						      	</div>
+						      </td>
+						      <td>{%print(car)%}
+							</td>
+						      
+						      
+				        	</td>
+						    </tr>
+						    <tr class="alert" role="alert">
+						    	
+						      <td class="d-flex align-items-center">
+						      	<div class="img" style="background-image: url(static/age.png);"></div>
+						      	<div class="pl-3 email">
+						      		<span>Age</span>
+						      		
+						      	</div>
+						      </td>
+						      <td>{%print(age)%}
+							</td>
+						      
+						      
+						    </tr>
+						    <tr class="alert" role="alert">
+						    	
+						      <td class="d-flex align-items-center">
+						      	<div class="img" style="background-image: url(static/km.png);"></div>
+						      	<div class="pl-3 email">
+						      		<span>Kilometers Driven</span>
+						      		
+						      	</div>
+						      </td>
+						      <td>{%print(kilometers_driven)%}
+							</td>
+						      
+						    </tr>
+						    <tr class="alert" role="alert">
+						    	
+						      <td class="d-flex align-items-center">
+						      	<div class="img" style="background-image: url(static/fuel.png);"></div>
+						      	<div class="pl-3 email">
+						      		<span>Fuel Type</span>
+						      		
+						      	</div>
+						      </td>
+						      <td>{%print(fuel)%}
+							</td>
+						      
+				        	</td>
+						    </tr>
+						    <tr class="alert" role="alert">
+						    	
+						      <td class="d-flex align-items-center border-bottom-0">
+						      	<div class="img" style="background-image: url(static/tran.png);"></div>
+						      	<div class="pl-3 email">
+						      		<span>Transmission</span>
+						      		
+						      	</div>
+						      </td>
+						      <td class="border-bottom-0">{%print(trans)%}
+							</td>
+						      
+						    </tr>
+							<tr class="alert" role="alert">
+						    	
+								<td class="d-flex align-items-center border-bottom-0">
+									<div class="img" style="background-image: url(static/owner.jpg);"></div>
+									<div class="pl-3 email">
+										<span>Owner Type</span>
+										
+									</div>
+								</td>
+								<td class="border-bottom-0">{%print(owner)%}
+								</td>
+								
+							  </tr>
+							  <tr class="alert" role="alert">
+						    	
+								<td class="d-flex align-items-center border-bottom-0">
+									<div class="img" style="background-image: url(static/mileage.webp);"></div>
+									<div class="pl-3 email">
+										<span>Mileage</span>
+										
+									</div>
+								</td>
+								<td class="border-bottom-0">{%print(mileage)%}
+								</td>
+								
+							  </tr>
+							  <tr class="alert" role="alert">
+						    	
+								<td class="d-flex align-items-center border-bottom-0">
+									<div class="img" style="background-image: url(static/engine.webp);"></div>
+									<div class="pl-3 email">
+										<span>Engine</span>
+										
+									</div>
+								</td>
+								<td class="border-bottom-0">{%print(engine)%}
+								</td>
+								
+							  </tr>
+							  <tr class="alert" role="alert">
+						    	
+								<td class="d-flex align-items-center border-bottom-0">
+									<div class="img" style="background-image: url(static/power.webp);"></div>
+									<div class="pl-3 email">
+										<span>Power</span>
+										
+									</div>
+								</td>
+								<td class="border-bottom-0">{%print(power)%}
+								</td>
+								
+							  </tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
+
